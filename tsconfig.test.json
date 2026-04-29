@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "outDir": "dist-test"
+  },
+  "include": ["**/*.test.ts", "**/*.spec.ts"]
+}
